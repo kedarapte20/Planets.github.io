@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Planets</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Planets</a>
+
+        <!-- Add a "hamburger". Remember to add jQuery and JavaScript CDNs -->
+        <!-- at the bottom of the body section for this to work -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Add a link to the Signup page -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#fav">Favorites</a>
+            </div>
+        </div><!-- /.navbar-collapse -->
+
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>List of Planets</h1>
+        </div>
+        <h2>Select your Favorite Planets</h2>
+        <table>
+            <ul id="list">
+                <tr>
+                    <td>
+                        <li id="zero"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="mercury">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="one"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="venus">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="two"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="earth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="three"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="mars">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="four"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="ceres">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="five"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="jupiter">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="six"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="saturn">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="seven"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="pluto">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="eight"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="haumea">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="nine"></li>
+                    </td>
+                    <td> </td>
+                    <td>
+                        <input type="checkbox" id="makemake">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <li id="ten"></li>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="eris">
+                    </td>
+                </tr>
+            </ul>
+            <tr>
+                <td id="btn"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="container" id="favpla">
+        <div class="jumbotron">
+            <div id="fav">
+                <h1>Favorite Planets</h1>
+            </div>
+        </div>
+    </div>
+    <div id="favPl">
+        <ul></ul>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"></script>
+    <script src=" app.js"></script>
+</body>
+
+</html>
